@@ -1,0 +1,90 @@
+body {
+    font-family: Croissant One;
+    background-color: #393e46;
+    margin: 0;
+    font-family: Sniglet;
+}
+
+.mobile-container {
+    margin: auto;
+    height: 600px;
+    color: #ece8d9;
+    border-radius: 20px;
+}
+
+.message {
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    font-weight: 100;
+    line-height: 1.0;
+    font-family: Yatra One;
+}
+
+.navbar {
+    background-color: #212121;
+    color: #ece8d9;
+    position: relative;
+    
+}
+
+.navbar #myLinks {
+    display: none;
+}
+
+
+.navbar a:hover {
+    background-color: #202060;
+    color: yellow;
+}
+
+.active {
+    background-color: #03506f;
+    color: #03506f;
+}
+
+button.navbar-toggler{
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    border: 1px solid transparent;
+    justify-content: center;
+    text-align: center;
+    padding: 0.25rem -0.25rem;;
+}       
+
+a.nav-link, a.navbar-brand{
+    color: white;
+}
+
+hr{
+    border: 2px solid white;
+}
+
+@media only screen and (max-width:990px){
+ 
+    .message{
+        text-align: left;
+        margin: 100px 50px;
+    }
+
+    p{
+        text-align: left;
+    }
+
+    .navbar a:hover {
+        background-color: #202060;
+        color: #cfc088;
+    }
+    
+}
